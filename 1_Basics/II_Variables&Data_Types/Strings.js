@@ -9,4 +9,4 @@ console.log(message);
 
 // String concatenation
 let fullGreeting = greeting + ", " + name + "!"; // using concatenation
-console.log(fullGreeting);
+console.log(fullGreeting);  
