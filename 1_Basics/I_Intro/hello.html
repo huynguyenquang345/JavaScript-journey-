@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My first interaction</title>
+</head>
+<body>
+    <h1 id = "heading">Click the button</h1>
+    <button id = "go">Say Hello</button>
+    <script>
+        // This runs when the page loads.
+        console.log("The page is ready.");
+
+        // This runs later - only when the button is clicked.
+        document.getElementById("go").addEventListener("click", function() {
+            document.getElementById("heading").innerHTML = "Hello, World!";
+            console.log("The button was clicked.");
+        });
+    </script>
+</body>
+</html>
