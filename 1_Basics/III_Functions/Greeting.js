@@ -1,6 +1,6 @@
-// Function declaration
+// Function declaration allow message appearing in the terminal
 function greet(name) {
-    return `Hello, ${name}!`; // using template literals
+    console.log("Hello, " + name + "!");
 }
 
 // Function invocation
