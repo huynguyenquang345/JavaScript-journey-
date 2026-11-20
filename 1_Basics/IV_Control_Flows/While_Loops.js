@@ -5,7 +5,7 @@ while (count <= 5) {
     count++;
 }
 
-// Find power of 2 greater than 100
+// Find power of 2 greater than 100 by while loop
 let power = 1;
 while (power <= 100) {
     power *= 2;
