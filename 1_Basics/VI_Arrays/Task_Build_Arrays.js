@@ -12,7 +12,7 @@ const tasks = [
 // TODO 1: return a NEW array of the titles of only the pending tasks, in order.
 //   pendingTitles(tasks) -> ["Review PR", "Fix bug", "Update docs"]
 function pendingTitles(tasks) {
-    return tasks.filter((task) => task.status === "pending").map((task.title))
+    return tasks.filter((task) => task.status === "pending").map((task) => task.title);
 }
 
 // TODO 2: return the sum of every task's priority as a number.
