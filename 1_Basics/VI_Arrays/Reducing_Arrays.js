@@ -22,4 +22,3 @@ const grouped = orders.reduce(
 
 console.log("Large orders:", grouped.large.length);
 console.log("Small orders:", grouped.small.length);
-// Git message: 
